@@ -1,0 +1,387 @@
+.light-mode {
+  --background-primary: rgb(245, 245, 245);
+  --background-secondary: rgb(220, 220, 220);
+  --background-third: rgb(200, 200, 200);
+  --color-primary: black;
+  --color-secondary: #FF4C4C;
+  --button-background-primary: rgb(210, 210, 210);
+  --button-background-secondary: rgb(180, 180, 180);
+  --button-hover-primary: rgb(140, 140, 140);
+  --button-hover-secondary: rgb(190, 220, 250);
+  --text-color: rgb(50, 50, 50);
+  --scroll-track-background :#e0e0e0;
+  --scroll-background-color: #b0b0b0;
+  --scroll-border: 3px solid #e0e0e0;
+  --scroll-border-radius:6px;
+}
+
+.dark-mode {
+  --background-primary: rgb(40,40,40) !important;
+  --background-secondary: rgb(30,30,30) !important;
+  --background-third: rgb(35,35,35) !important;
+  --button-background-primary: rgb(150, 0, 0);
+  --button-background-secondary: rgb(60, 30, 30);
+  --button-hover-primary: rgb(50, 25, 25);
+  --button-hover-secondary: rgb(80, 40, 40);
+  --color-primary: #fff;
+  --color-secondary: #FF4C4C;
+  --text-color: rgb(255, 255, 255);
+  --scroll-track-background : rgb(30, 30, 30);
+  --scroll-background-color: rgb(70, 70, 70);
+  --scroll-border: var(--scroll-border);
+  --scroll-border-radius:6px;
+}
+
+body {
+  background-color: var(--background-primary) !important;
+  color: var(--text-color);
+}
+
+button:hover{
+  background-color: var(--button-hover-primary) !important;
+}
+
+
+a:hover{
+  background-color: var(--button-hover-primary);
+}
+
+
+
+#bio-row{
+color: var(--color-secondary);
+margin: 20px;
+}
+
+.bio-text{
+color: var(--background-primary);
+}
+
+
+.label-div{
+text-align: center;
+}
+
+.settings-edit-button{
+margin-top: 15px;
+}
+
+
+
+
+.message-edit-div{
+color : var(--color-secondary);
+display:  block;
+margin-left: auto;
+
+}
+
+
+
+.typing-animation {
+  font-size: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  color: var(--color-secondary);
+}
+
+
+
+
+label{
+  color : var(--color-secondary);
+  margin-right: 220px;
+}
+
+.form-control{
+  font-weight: 600 !important;
+}
+button{
+  margin-right: 15px;
+  color: var(--color-secondary) !important;
+  border: none !important; 
+}
+button:hover{
+  background-color: var(--button-hover-primary)!important;
+  border: none !important; 
+}
+
+textarea{
+width: 100%; 
+height: 100%; 
+font-size: 14px; 
+border-radius: 5px; 
+border: 1px solid #ccc; 
+resize: none; 
+background-color: var(--background-primary);
+color: var(--color-primary)
+}
+
+
+.error {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+li{
+display: block;
+}
+
+ul{
+padding: 0;
+}
+
+
+
+.dropdown-button{
+width: 100%;
+margin-right: 35px;
+}
+
+.navbar-icon {
+  margin-right: 8px !important; 
+  color: var(--color-secondary);
+}
+
+
+
+
+
+
+.toggle-container {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.switch {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 10px;
+margin-right: 5px;
+margin-left: 5px;
+}
+
+.switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+
+.slider {
+position: relative;
+display: inline-block;
+width: 34px;
+height: 20px;
+margin-right: 10px;
+}
+
+.slider-round {
+border-radius: 50px;
+}
+.toggle-container label {
+background-color: var(--background-primary); 
+padding: 10px;
+border-radius: 4px;
+}
+.slider:before {
+position: absolute;
+content: "";
+height: 12px;
+width: 12px;
+border-radius: 50px;
+background: white;
+transition: .4s;
+bottom: 4px;
+left: 4px;
+}
+
+input:checked + .slider:before {
+transform: translateX(14px);
+}
+
+.slider {
+background-color: #ccc;
+border-radius: 50px;
+}
+
+input:checked + .slider {
+background-color: #4caf50;
+}
+
+.label-text {
+font-size: 16px;
+}
+
+
+
+
+.profilePhoto{
+margin: 5px;
+}
+
+
+
+.send-icon{
+  width: 100%;
+  height: 100%
+}
+
+.new-messages-notif{
+  background-color: #1B5E20;
+  max-height: 3%;
+}
+.new-mes-a{
+  display: block;
+  font-size: 18px;
+  color:var(--color-primary)
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+  .light-mode {
+    --background-primary: rgb(245, 245, 245);
+    --background-secondary: rgb(220, 220, 220);
+    --background-third: rgb(200, 200, 200);
+    --color-primary: black;
+    --color-secondary: #FF4C4C;
+    --button-background-primary: rgb(210, 210, 210);
+    --button-background-secondary: rgb(180, 180, 180);
+    --button-hover-primary: rgb(140, 140, 140);
+    --button-hover-secondary: rgb(190, 220, 250);
+    --text-color: rgb(50, 50, 50);
+    --scroll-track-background :#e0e0e0;
+    --scroll-background-color: #b0b0b0;
+    --scroll-border: 3px solid #e0e0e0;
+    --scroll-border-radius:6px;
+  }
+  
+  .dark-mode {
+    --background-primary: rgb(40,40,40) !important;
+    --background-secondary: rgb(30,30,30) !important;
+    --background-third: rgb(35,35,35) !important;
+    --button-background-primary: rgb(150, 0, 0);
+    --button-background-secondary: rgb(60, 30, 30);
+    --button-hover-primary: rgb(50, 25, 25);
+    --button-hover-secondary: rgb(80, 40, 40);
+    --color-primary: #fff;
+    --color-secondary: #FF4C4C;
+    --text-color: rgb(255, 255, 255);
+    --scroll-track-background : rgb(30, 30, 30);
+    --scroll-background-color: rgb(70, 70, 70);
+    --scroll-border: var(--scroll-border);
+    --scroll-border-radius:6px;
+  }
+
+
+  .cover-container{
+    padding: 0 !important;
+  }
+
+
+
+
+
+  .logo-image{
+    width: 500px !important;
+    height: 300px !important;
+  }
+  
+  .inner-cover{
+    width: 100%;
+    height: 100%;
+  }
+
+  .body {
+    font-size: 14px !important; 
+  }
+
+  .button {
+    margin-right: 5px;
+  }
+
+  .typing-animation {
+
+    font-size: 13px;
+  }
+
+  .label-div {
+    text-align: left; 
+  }
+
+  .settings-edit-button {
+    margin-top: 10px;
+  }
+
+  .textarea {
+    font-size: 12px; 
+    height: auto; 
+  }
+
+  .dropdown-button {
+    width: auto; 
+    margin-right: 10px;
+  }
+
+  .profilePhoto {
+    margin: 3px;
+    width: 50px; 
+    height: 50px;
+  }
+
+  .ul {
+    padding: 5px; 
+  }
+
+  .li {
+    font-size: 14px;
+  }
+
+  .navbar-icon {
+    margin-right: 4px; 
+  }
+
+  .toggle-container {
+    flex-direction: row; 
+    gap: 5px; 
+  }
+
+  .slider {
+    width: 24px; 
+    height: 14px;
+  }
+
+  .slider:before {
+    height: 8px; 
+    width: 8px;
+  }
+
+  .new-messages-notif {
+    font-size: 14px; 
+    max-height: 5%; 
+  }
+
+  .new-mes-a {
+    font-size: 16px;
+  }
+
+  .bio-text {
+    font-size: 14px; 
+  }
+
+  .message-edit-div {
+    margin-left: 0; 
+  }
+
+  .form-control {
+    font-size: 14px; 
+  }
+}
+
+
+

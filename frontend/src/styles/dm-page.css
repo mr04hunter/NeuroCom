@@ -1,0 +1,325 @@
+.chat-section{
+display: flex;
+justify-content: center;
+width: 90% !important;
+height: 90% !important;
+background-color: #1a1a1a;
+}
+
+.chat-container{
+display: flex;
+width: 100% !important;
+height: 100% !important;
+max-height: 100% !important;
+background-color: var(--background-secondary) !important;
+}
+
+.chat-content{
+    height: 90%;
+    width: 100%;
+}
+
+.chat-nav{
+display: block;
+background-color: var(--background-secondary) !important;
+width: 25% !important;
+flex-direction: column;
+height: 100% !important;
+}
+
+.chat-nav::-webkit-scrollbar {
+width: 0.1px !important; 
+}
+
+.chat-nav::-webkit-scrollbar-track {
+background: var(--scroll-track-background)
+
+}
+
+.chat-nav::-webkit-scrollbar-thumb {
+width: 3px !important;
+background-color: var(--scroll-background-color);
+border-radius: var(--scroll-border-radius); 
+border: var(--scroll-border); 
+}
+
+.chat-header{
+margin-top: 10px;
+height: 10%;
+color: var(--color-secondary);
+}
+.dm-nav-container{
+display: block;
+overflow-y: auto;
+padding: 20px;
+background-color: var(--background-third) !important; 
+width: 100% !important;
+height: 90% !important;
+
+
+}
+
+.dm-nav{
+
+height:  90% !important;
+width: 100%;
+padding: 10px;
+}
+
+.dm-chat-top-bar{
+    height: 9%;
+    background-color: var(--background-secondary) !important;
+  }
+
+
+
+
+.dm-nav-container::-webkit-scrollbar {
+width: 3px; 
+}
+
+.dm-nav-container::-webkit-scrollbar-track {
+background: var(--scroll-track-background)
+}
+
+.dm-nav-container::-webkit-scrollbar-thumb {
+background-color: var(--scroll-background-color); 
+border-radius: var(--scroll-border-radius); 
+border: var(--scroll-border); 
+}
+
+.dm-boxes-ul{
+padding: 0;
+height: 100% !important;
+margin: 0;
+}
+.dm-item{
+
+width: 100%;
+height: 12%;
+min-height: 12%;
+margin-bottom: 1px;
+
+}
+
+
+.dm-username{
+    margin: 10px;
+    word-break: keep-all !important;
+    white-space: nowrap;
+}
+
+.dm-user-item{
+background-color: var(--background-secondary);
+display: block;
+}
+
+.dm-user-item:hover{
+background-color: var(--button-hover-primary) !important;
+}
+
+
+.dm-button-active{
+
+display: block;
+
+color: var(--color-primary);
+background-color: var(--button-hover-primary) !important;
+}
+
+
+
+.dm-pp-username-container{
+display: flex;
+width: 100%;
+}
+
+.profile-image{
+margin: 10px;
+}
+
+.dm-user-div{
+font-size: 25px !important;
+width: 100%;
+color: var(--color-primary);
+margin: 10px;
+}
+
+.in-the-chat{
+display: block;
+margin: 0;
+color:#4caf50;
+font-size: 13px;
+}
+
+.online-div{
+    margin: 10px
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .chat-section{
+        display: flex;
+        justify-content: center;
+        width: 100% !important;
+        height: 90% !important;
+        background-color: #1a1a1a;
+        }
+        
+        .chat-container{
+        display: flex;
+        width: 100% !important;
+        height: 100% !important;
+        max-height: 100% !important;
+        background-color: var(--background-secondary) !important;
+        }
+        
+        .chat-content{
+            height: 90%;
+            width: 75%;
+        }
+        
+        .chat-nav{
+        display: block;
+        background-color: var(--background-secondary) !important;
+        width: 35% !important;
+        flex-direction: column;
+        height: 100% !important;
+        
+        }
+        
+        .chat-nav::-webkit-scrollbar {
+        width: 0.1px !important; 
+        }
+        
+        .chat-nav::-webkit-scrollbar-track {
+        background: var(--scroll-track-background)
+        
+        }
+        
+        .chat-nav::-webkit-scrollbar-thumb {
+        width: 3px !important;
+        background-color: var(--scroll-background-color); 
+        border-radius: var(--scroll-border-radius); 
+        border: var(--scroll-border); 
+        }
+        
+        .chat-header{
+            font-size: 15px !important;
+        margin-top: 10px;
+        height: 10%;
+        color: var(--color-secondary);
+        }
+        .dm-nav-container{
+        display: block;
+        overflow-y: auto;
+        padding: 5px;
+        background-color: var(--background-third) !important; 
+        width: 100% !important;
+        height: 90% !important;
+        
+        
+        }
+        
+        .dm-nav{
+        height:  90% !important;
+        width: 100%;
+        padding: 5px;
+        }
+        
+        .dm-chat-top-bar{
+            height: 9%;
+            background-color: var(--background-secondary) !important;
+          }
+        
+        
+        
+        
+        .dm-nav-container::-webkit-scrollbar {
+        width: 3px; 
+        }
+        
+        .dm-nav-container::-webkit-scrollbar-track {
+        background: var(--scroll-track-background)
+        }
+        
+        .dm-nav-container::-webkit-scrollbar-thumb {
+        background-color: var(--scroll-background-color); 
+        border-radius: var(--scroll-border-radius); 
+        border: var(--scroll-border); 
+        }
+        
+        .dm-boxes-ul{
+        padding: 0;
+        height: 100% !important;
+        margin: 0;
+        }
+        .dm-item{
+        
+        width: 100% !important;
+        height: 9%;
+        
+        }
+        
+        
+        .dm-username{
+            margin: 5px;
+            word-break: keep-all !important;
+            white-space: nowrap;
+        }
+        
+        .dm-user-item{
+        background-color: var(--background-secondary);
+        display: block;
+        }
+        
+        .dm-user-item:hover{
+        background-color: var(--button-hover-primary) !important;
+        }
+        
+        
+        .dm-button-active{
+        
+        display: block;
+        
+        color: var(--color-primary);
+        background-color: var(--button-hover-primary) !important;
+        }
+        
+        
+        
+        .dm-pp-username-container{
+        display: flex;
+        width: 100%;
+        }
+        
+        .profile-image{
+            width: 15px;
+            height: 15px;
+        margin: 10px;
+        }
+        
+        .dm-user-div{
+        font-size: 12px !important;
+        width: 100%;
+        color: var(--color-primary);
+        margin: 10px;
+        }
+        
+        .in-the-chat{
+        display: block;
+        margin: 0;
+        color:#4caf50;
+        font-size: 10px;
+        }
+        
+        .online-div{
+            margin: 10px
+        }
+        
+
+
+
+}

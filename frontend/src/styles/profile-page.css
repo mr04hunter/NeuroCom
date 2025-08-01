@@ -1,0 +1,53 @@
+.profile-section{
+padding: 10px;
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.profile-div{
+background-color: var(--background-secondary) !important;
+margin-top: 60px !important;
+margin: 50px;
+display: block;
+max-width: 500px;
+min-width: 400px;
+border: 1px solid #FF4C4C;
+}
+.username-label{
+color: var(--color-primary);
+}
+
+.profile-header{
+color : var(--color-secondary);
+}
+.info-container{
+display: block;
+}
+.info-div{
+justify-content: center;
+text-align: center;
+}
+
+#profile-info-div{
+display: block;
+margin-top: 35px;
+}
+
+.info-label{
+color: var(--color-secondary); ;
+margin-right: 5px;
+} 
+
+.info{
+color: var(--color-primary);
+}
+.edit-profile-button{
+margin-top: 30px;
+border: none !important; 
+}
+.edit-profile-button:hover{
+box-shadow: none !important;
+border: none !important; 
+}

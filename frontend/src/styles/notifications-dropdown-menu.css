@@ -1,0 +1,172 @@
+.notifications-dropdown-menu{
+width: 100%;
+position: relative;
+font-size: 20px;
+text-decoration: none !important;
+color:var(--color-primary)
+}
+
+.notifications-dropdown-button{
+display: block;
+border-radius: 0 !important;
+border: 0 !important;
+padding: 15px !important;
+font-size: 20 !important;
+font-weight: 500;
+font-family: inherit;
+background-color: #1a1a1a;
+cursor: pointer;
+transition: border-color 0.25s;
+background-color: var(--background-secondary) !important;
+color:var(--color-primary)
+}
+.dropdown-icon{
+margin-left: 5px;
+}
+
+.notifications-dropdown-content{
+right: 50%;
+top: 100%;
+width: 300%;
+min-height: 350px;
+max-height: 550px;
+background-color: var(--background-secondary) !important;
+display: block;
+position: absolute;
+overflow-y: scroll;
+}
+
+.notifications-dropdown-content::-webkit-scrollbar {
+width: 12px; 
+}
+
+.notifications-dropdown-content::-webkit-scrollbar-track {
+background: var(--scroll-track-background)
+}
+
+.notifications-dropdown-content::-webkit-scrollbar-thumb {
+background-color: var(--scroll-background-color); 
+border-radius: var(--scroll-border-radius); 
+border: var(--scroll-border); 
+}
+
+.notifications-navbar{
+width: 100%;
+display: flex;
+justify-content: space-between;
+
+}
+
+.notifications-navbar-button{
+font-size: 15px !important;
+background-color: var(--background-secondary) !important;
+height: 10% !important;
+}
+.notification-item{
+margin-right: 0 !important;
+background-color: var(--background-secondary) !important;
+display: block;
+width: 100%;
+}
+.notification-header{
+display: block;
+
+}
+.notification-text{
+font-size: 17px;
+}
+.notification-content{
+display: flex;
+justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .notifications-dropdown-menu{
+        width: 100%;
+        position: relative;
+        font-size: 10px;
+        text-decoration: none !important;
+        color:var(--color-primary)
+        }
+
+
+        .notifications-dropdown-button{
+            display: block;
+            border-radius: 0 !important;
+            border: 0 !important;
+            padding: 10px !important;
+            font-size: 20 !important;
+            font-weight: 500;
+            font-family: inherit;
+            background-color: #1a1a1a;
+            cursor: pointer;
+            transition: border-color 0.25s;
+            background-color: var(--background-secondary) !important;
+            color:var(--color-primary);
+            margin-right: 10px !important;
+            width: 100%;
+            min-height: 100% !important;
+            }
+        
+        
+        .dropdown-icon{
+        margin-left: 5px;
+        }
+        
+        .notifications-dropdown-content{
+        right: 50%;
+        top: 100%;
+        width: 300%;
+        min-height: 150px;
+        max-height: 350px;
+        background-color: var(--background-secondary) !important;
+        display: block;
+        position: absolute;
+        overflow-y: scroll;
+        }
+        
+        .notifications-dropdown-content::-webkit-scrollbar {
+        width: 12px; 
+        }
+        
+        .notifications-dropdown-content::-webkit-scrollbar-track {
+        background: var(--scroll-track-background)
+        }
+        
+        .notifications-dropdown-content::-webkit-scrollbar-thumb {
+        background-color: var(--scroll-background-color); 
+        border-radius: var(--scroll-border-radius); 
+        border: var(--scroll-border); 
+        }
+        
+        .notifications-navbar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+        }
+        
+        .notifications-navbar-button{
+        font-size: 10px !important;
+        background-color: var(--background-secondary) !important;
+        height: 10% !important;
+        }
+        .notification-item{
+        margin-right: 0 !important;
+        background-color: var(--background-secondary) !important;
+        display: block;
+        width: 100%;
+        }
+        .notification-header{
+        display: block;
+        
+        }
+        .notification-text{
+        font-size: 10px !important;
+        }
+        .notification-content{
+        display: flex;
+        justify-content: center;
+        }
+}

@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+*.neurocom.egg-info
+*.egg-info/
+*.egg/
+# VSCode or other IDE settings
+.vscode/
+.idea/
+
+# macOS or Linux system files
+.DS_Store
+Thumbs.db
+
+# Secret keys, environment variables
+.env
+*.env
+
+# Migrations
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+
+.env
+build/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

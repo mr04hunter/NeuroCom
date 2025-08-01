@@ -1,0 +1,74 @@
+#root {
+  padding: 0 !important;
+  padding: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh !important;
+  width: 100%;
+  overflow-y: hidden;
+}
+body{
+  height: 100% !important;
+  display: block !important;
+
+}
+
+
+body{
+  font-family: 'Orbitron', sans-serif;
+}
+
+a{
+  font-size: 20px;
+  text-decoration: none !important;
+
+}
+
+.navbar a {
+  padding: 10px;
+  display: block;
+}
+form{
+  display: block;
+}
+
+
+@media screen and (max-width: 768px) {
+  #root {
+    padding: 0 !important;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh !important;
+    width: 100%;
+    overflow-y: hidden;
+  }
+  body{
+    height: 100vh !important;
+    display: block !important;
+  
+  }
+  
+  
+  body{
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  a{
+    font-size: 20px;
+    text-decoration: none !important;
+  
+  }
+  
+  
+  form{
+    display: block;
+  }
+  
+  
+
+}

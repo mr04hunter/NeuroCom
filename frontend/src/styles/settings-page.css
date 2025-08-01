@@ -1,0 +1,441 @@
+.setting-header{
+color: var(--color-secondary);
+}
+
+.delete-account-header{
+color: var(--color-secondary);
+}
+
+.delete-account-text{
+color: var(--color-secondary);
+}
+
+.change-password-header{
+color:var(--color-secondary);
+}
+.change-password-form{
+display: flex;
+justify-content: center;
+}
+
+.change-password-container{
+width: 50%;
+justify-content: center;
+}
+
+.change-password-input-container{
+display: flex;
+justify-content: center;
+}
+.security-settings-header{
+color: var(--color-secondary);
+}
+
+
+
+.change-password-input-container input[type='text'],
+.change-password-input-container input { 
+width: 100%;
+height: 40px; 
+padding: 10px; 
+border: 1px solid #ccc; 
+border-radius: 4px; 
+background-color: var(--background-secondary) !important; 
+box-sizing: border-box;
+color: var(--color-primary); 
+margin: 10px;
+}
+.change-password-label{
+color: var(--color-secondary);
+}
+.toggle-container {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.toggle-container label {
+background-color: var(--background-primary); 
+padding: 10px;
+border-radius: 4px;
+}
+.label-text {
+font-size: 16px;
+}
+.switch {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 10px;
+margin-right: 5px;
+margin-left: 5px;
+}
+
+.switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+.blocked-users-div{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+width: 100%  !important;
+height: 100%;
+background-color: var(--background-secondary) !important;
+overflow-y: hidden  !important;
+
+}
+.blocked-users-div::-webkit-scrollbar {
+width: 12px; 
+}
+
+.blocked-users-div::-webkit-scrollbar-track {
+background: var(--scroll-track-background)
+}
+
+.blocked-users-div::-webkit-scrollbar-thumb {
+background-color: var(--scroll-background-color); 
+border-radius: var(--scroll-border-radius); 
+border: var(--scroll-border); 
+}
+.blocked-users-list-div{
+display: block;
+overflow-x: hidden !important;
+width: 100%;
+height: 100% !important;
+overflow-y: auto;
+
+}
+
+.blocked-users-list-div::-webkit-scrollbar {
+width: 12px; 
+}
+
+.blocked-users-list-div::-webkit-scrollbar-track {
+background: var(--scroll-track-background)
+}
+
+.blocked-users-list-div::-webkit-scrollbar-thumb {
+background-color: var(--scroll-background-color); 
+border-radius: var(--scroll-border-radius); 
+border: var(--scroll-border); 
+}
+.friend-div{
+margin: 10px;
+display: flex;
+color: var(--color-secondary);
+max-height: 75px;
+width: 100%;
+background-color: var(--background-third);
+border-radius: 8px; 
+justify-content: space-between;
+}
+.friend-div-item{
+display: flex;
+justify-content: center;
+max-width: 33%;
+width: 33%;
+height: 100%;
+}
+.friend-name{
+word-break: break-word; 
+overflow-wrap: anywhere;
+margin: 0;
+}
+
+.settings-section{
+display: flex;
+width: 80% !important;
+height: 80% !important;;
+overflow-y: auto !important;
+background-color: var(--background-secondary) !important;
+}
+.settings-section::-webkit-scrollbar {
+width: 12px;
+}
+
+.settings-section::-webkit-scrollbar-track {
+background: var(--scroll-track-background)
+}
+
+.settings-section::-webkit-scrollbar-thumb {
+background-color: var(--scroll-background-color); 
+border-radius: var(--scroll-border-radius); 
+border: var(--scroll-border); 
+}
+.settings-nav{
+display: block;
+padding: 20px;
+background-color: var(--background-third) !important
+}
+.settings-header{
+color: #FF4C4C;
+}
+.setting-button-active{
+font-size: 25px;
+display: block;
+margin: 10px;
+color: var(--color-primary);
+background-color: var(--button-hover-primary)!important;
+}
+.setting-button{
+font-size: 25px;
+display: block;
+margin: 10px;
+color: var(--color-primary);
+}
+.setting-button:hover{
+font-size: 25px;
+display: block;
+margin: 10px;
+color: var(--color-primary);
+background-color: var(--button-hover-primary);
+}
+.settings-content{
+width: 100% !important;
+height: 100% !important;
+overflow-y: hidden !important;
+}
+
+.settings-content::-webkit-scrollbar {
+width: 12px; 
+}
+
+.settings-content::-webkit-scrollbar-track {
+background: var(--scroll-track-background)
+}
+
+.settings-content::-webkit-scrollbar-thumb {
+background-color: var(--scroll-background-color); 
+border-radius: var(--scroll-border-radius); 
+border: var(--scroll-border); 
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .setting-header{
+    color: var(--color-secondary);
+    }
+    
+    .delete-account-header{
+    color: var(--color-secondary);
+    }
+    
+    .delete-account-text{
+    color: var(--color-secondary);
+    }
+    
+    .change-password-header{
+    color:var(--color-secondary);
+    }
+    .change-password-form{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .change-password-container{
+    width: 50%;
+    justify-content: center;
+    }
+    
+    .change-password-input-container{
+    display: flex;
+    justify-content: center;
+    }
+    .security-settings-header{
+    color: var(--color-secondary);
+    }
+    
+  
+    .submit-change-password{
+      font-size: 10px !important;
+    }
+    
+    .change-password-input-container input[type='text'],
+    .change-password-input-container input { 
+    width: 100px;
+    height: 20px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    background-color: var(--background-secondary) !important; 
+    box-sizing: border-box;
+    color: var(--color-primary); 
+    margin: 10px;
+    }
+    .change-password-label{
+      font-size: 10px;
+    color: var(--color-secondary);
+    }
+    .toggle-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    .toggle-container label {
+    background-color: var(--background-primary); 
+    padding: 10px;
+    border-radius: 4px;
+    }
+    .label-text {
+    font-size: 16px;
+    }
+    .switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    }
+    
+    .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    }
+    .blocked-users-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%  !important;
+    height: 100%;
+    background-color: var(--background-secondary) !important;
+    overflow-y: hidden  !important;
+    
+    }
+    .blocked-users-div::-webkit-scrollbar {
+    width: 12px; 
+    }
+    
+    .blocked-users-div::-webkit-scrollbar-track {
+    background: var(--scroll-track-background)
+    }
+    
+    .blocked-users-div::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-background-color); 
+    border-radius: var(--scroll-border-radius);
+    border: var(--scroll-border); 
+    }
+    .blocked-users-list-div{
+    display: block;
+    overflow-x: hidden !important;
+    width: 100%;
+    height: 100% !important;
+    overflow-y: auto;
+    
+    }
+    
+    .blocked-users-list-div::-webkit-scrollbar {
+    width: 12px; 
+    }
+    
+    .blocked-users-list-div::-webkit-scrollbar-track {
+    background: var(--scroll-track-background)
+    }
+    
+    .blocked-users-list-div::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-background-color); 
+    border-radius: var(--scroll-border-radius); 
+    border: var(--scroll-border); 
+    }
+    .friend-div{
+    margin: 10px;
+    display: flex;
+    color: var(--color-secondary);
+    max-height: 75px;
+    width: 100%;
+    background-color: var(--background-third);
+    border-radius: 8px; 
+    justify-content: space-between;
+    }
+    .friend-div-item{
+    display: flex;
+    justify-content: center;
+    max-width: 33%;
+    width: 33%;
+    height: 100%;
+    }
+    .friend-name{
+    word-break: break-word; 
+    overflow-wrap: anywhere;
+    margin: 0;
+    }
+    
+    .settings-section{
+    display: flex;
+    width: 80% !important;
+    height: 80% !important;;
+    overflow-y: auto !important;
+    background-color: var(--background-secondary) !important;
+    }
+    .settings-section::-webkit-scrollbar {
+    width: 12px; 
+    }
+    
+    .settings-section::-webkit-scrollbar-track {
+    background: var(--scroll-track-background)
+    }
+    
+    .settings-section::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-background-color); 
+    border-radius: var(--scroll-border-radius); 
+    border: var(--scroll-border); 
+    }
+    .settings-nav{
+    display: block;
+    padding: 20px;
+    background-color: var(--background-third) !important
+    }
+    .settings-header{
+    color: #FF4C4C;
+    }
+    .setting-button-active{
+    font-size: 12px !important;
+    display: block;
+    margin: 10px;
+    color: var(--color-primary);
+    background-color: var(--button-hover-primary)!important;
+    }
+    .setting-button-active:hover{
+      font-size: 12px;
+      display: block;
+      margin: 10px;
+      color: var(--color-primary) !important;
+      background-color: var(--button-hover-primary) !important;
+      }
+    .setting-button{
+    font-size: 10px !important;
+    display: block;
+    margin: 10px;
+    color: var(--color-primary) !important;
+    }
+    .setting-button:hover{
+    font-size: 15px;
+    display: block;
+    margin: 10px;
+    color: var(--color-primary) !important;
+    background-color: var(--button-hover-primary) !important;
+    }
+    .settings-content{
+    width: 100% !important;
+    height: 100% !important;
+    overflow-y: hidden !important;
+    }
+    
+    .settings-content::-webkit-scrollbar {
+    width: 5px;
+    }
+    
+    .settings-content::-webkit-scrollbar-track {
+    background: var(--scroll-track-background)
+    }
+    
+    .settings-content::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-background-color); 
+    border-radius: var(--scroll-border-radius); 
+    border: var(--scroll-border);
+    }
+
+}

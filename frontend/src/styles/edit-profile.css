@@ -1,0 +1,155 @@
+.edit-section{
+    padding: 10 !important;
+    background-color: var(--background-primary);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-width: 1100px;
+    max-height: 200px;
+  }
+
+  .edit-form {
+    background-color: var(--background-secondary) !important; 
+    padding: 10px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+
+  .edit-header{
+    color : var(--color-secondary);
+  }
+
+
+  .edit-div-profile-photo{
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block !important;
+    margin-top: 20px; 
+    width: 100%;
+    height: 100%;
+    max-height: 100px;
+  }
+  
+  .edit-div-profile-photo button{
+  
+    margin-left: 5px;
+  }
+  
+
+  .edit-div{
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-top: 20px; 
+    width: 100%;
+    height: 100%;
+    max-height: 150px;
+  }
+  
+  
+  .edit-label{
+    display: block; 
+    margin-bottom: 0px; 
+  }
+  
+  .edit-div input[type='text'],
+  .edit-div input[type='password'] {
+  width: 100%; 
+  height: 40px; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  background-color: var(--background-secondary) !important; 
+  box-sizing: border-box;
+  color: var(--color-primary); 
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .edit-section{
+      padding: 10 !important;
+      background-color: var(--background-primary);
+      text-align: center;
+      justify-content: center !important;
+      align-items: center;
+      display: flex;
+      min-height: 90vh ;
+      width: 100vh ;
+    
+    }
+    
+
+    .edit-logo-image{
+      display: none;
+    }
+  
+    .edit-form {
+      height: 100% !important;
+      background-color: var(--background-secondary) !important; 
+      padding: 10px; 
+      border-radius: 8px; 
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    }
+  
+    .edit-header{
+      color : var(--color-secondary);
+    }
+  
+  
+    .edit-div-profile-photo{
+  
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      display: block !important;
+      margin-top: 20px; 
+      width: 100%;
+      height: 100%;
+      max-height: 100px;
+    }
+    
+    .edit-div-profile-photo button{
+    
+      margin-left: 5px;
+    }
+    
+  
+    .edit-div{
+  
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      display: block;
+      margin-top: 20px; 
+      width: 100%;
+      height: 10% !important;
+    }
+    
+    
+    .edit-label{
+      display: block; 
+      margin-bottom: 0px; 
+    }
+    
+    .edit-div input[type='text'],
+    .edit-div input[type='password'] {
+    width: 100%; 
+    height: 40px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    background-color: var(--background-secondary) !important; 
+    box-sizing: border-box;
+    color: var(--color-primary); 
+    }
+  
+
+
+  }

@@ -1,0 +1,109 @@
+.login-section{
+    padding: 10 !important;
+    background-color: var(--background-primary);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-width: 1100px;
+  }
+  
+  .login-form {
+    height: 100%;
+    width: 100%;
+    max-height: 500px; 
+    background-color: var(--background-secondary) !important; 
+    padding: 10px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  .login-header{
+    color : var(--color-secondary);
+  }
+  .login-div{
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-top: 20px; 
+    width: 100%;
+    height: 100%;
+    max-height: 100px;
+  }
+  .login-div input[type='text'],
+.login-div input[type='password'] {
+width: 100%; 
+height: 40px;
+padding: 10px; 
+border: 1px solid #ccc; 
+border-radius: 4px;
+background-color: var(--background-secondary) !important; 
+box-sizing: border-box;
+color: var(--color-primary); 
+}
+
+.login-label{
+    display: block; 
+    margin-bottom: 0px; 
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+    .login-section{
+      padding: 10 !important;
+      background-color: var(--background-primary);
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      height: 90vh;
+      width: 100vh;
+    }
+    .login-logo-image{
+      display: none;
+    }
+    
+    .login-form {
+      height: 100% !important;
+      width: 100% !important;
+      max-height: 500px; 
+      background-color: var(--background-secondary) !important; 
+      padding: 40px; 
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    }
+    .login-header{
+      color : var(--color-secondary);
+    }
+    .login-div{
+  
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      display: block;
+      margin-top: 20px; 
+      width: 100%;
+      height: 100%;
+      max-height: 100px;
+    }
+    .login-div input[type='text'],
+  .login-div input[type='password'] {
+  width: 100%; 
+  height: 40px; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  background-color: var(--background-secondary) !important; 
+  box-sizing: border-box;
+  color: var(--color-primary);
+  }
+  
+  .login-label{
+      display: block; 
+      margin-bottom: 0px; 
+    }
+  }
